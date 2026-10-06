@@ -86,7 +86,9 @@ const { title, description, image, fluid, docsSidebar } = Astro.props;
       </header>
     </div>
 
-    <div class="overflow-y-auto h-[calc(100vh-65px)] min-h-[calc(100vh-65px)]">
+    <div
+      class="overflow-x-hidden overflow-y-auto h-[calc(100vh-65px)] min-h-[calc(100vh-65px)]"
+    >
       <main
         class:list={[
           "prose dark:prose-invert format-code",
